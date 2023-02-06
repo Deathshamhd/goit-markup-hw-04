@@ -767,6 +767,14 @@ letter-spacing: 0.03em;
 color: var(--secondry-text-color);
 
 }
+.Clients-section
+{
+    display: flex;
+
+    justify-content: center;
+
+    margin-bottom: 94px;
+}
 .clients-logos
 {
     margin-top:  186px; 
@@ -777,10 +785,7 @@ color: var(--secondry-text-color);
 .client-list
 {
     display: flex;
-    justify-content: center;
-    border-radius: 4px;
 
-   padding-bottom: 94px;
 }
 
 .client-item
@@ -799,10 +804,7 @@ border-radius: 4px;
 
 .client-title
 {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-
+    display: block;
 }
 .client-item-icon
 
@@ -810,6 +812,13 @@ border-radius: 4px;
     fill: #AFB1B8;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+margin-right: 30px;
+
+width: 170px;
+height: 92px;
+
+
+
 }
 
 
