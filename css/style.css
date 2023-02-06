@@ -552,6 +552,20 @@ color: var(--secondry-text-color);
 
     justify-content: center;
 }
+.team-socials-item:not(:last-child)
+
+{
+
+    margin-right: 10px;
+
+}
+.team-socials-link
+{
+    width: 44px;
+
+    height: 44px;
+}
+
 
 /*PROTFOLIO*/
 
