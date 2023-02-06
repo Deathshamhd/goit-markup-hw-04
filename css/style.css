@@ -793,6 +793,19 @@ align-items: center;
     
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+
+    margin-bottom: 94px;
+}
+.clients-item:not(:last-child)
+
+{
+    margin-left: 30px;
+}
+
+
+.client-item-icon
+{
+    fill: var(--secondry-text-color);
 }
 
 /*Footer*/
