@@ -181,10 +181,20 @@ margin-right: 50px;
 
     padding: 32px 0;
 
-    display: block;
+    display: flex;
 
+    align-items: center;
   
-    
+}
+
+.contact-link-icon
+
+{
+
+fill: currentColor;
+margin-right: 10px;
+
+
 }
 
 
@@ -195,6 +205,15 @@ margin-right: 50px;
 background-color:var(--dark-background-color);
 
 padding: 200px 0;
+
+background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)) ,url(../img/back-ground-img-hero.jpg);
+
+
+background-size: cover;
+
+background-repeat: no-repeat;
+
+background-position: center;
 
 }
 .hero-title
@@ -382,6 +401,24 @@ color: var(--light-background-color);
     margin-right: 30px;
 }
 
+.feature-item-icon-warpper
+{
+    background-color: #f5f4fA;
+
+    padding: 25px 0;
+
+    border-radius: 4px;
+
+    margin-bottom: 30px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+
+}
 
 /*WHAT SECTION */
 
@@ -506,6 +543,14 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: var(--secondry-text-color);
+}
+
+.team-socials-list
+{
+    display: flex;
+
+
+    justify-content: center;
 }
 
 /*PROTFOLIO*/
