@@ -767,47 +767,15 @@ letter-spacing: 0.03em;
 color: var(--secondry-text-color);
 
 }
-
-.clients-section
+.client-list
 {
-    display: flex;
+display: flex;
+
+
+justify-content: center;
+
+padding-bottom: 30px;
 }
-.clients-logos
-
-{
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-}
-.clients-list
-{
-    display: flex;
-align-items: center;
-    justify-content: center;
-}
-.clients-item
-
-{
-    
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-
-    margin-bottom: 94px;
-}
-.clients-item:not(:last-child)
-
-{
-    margin-left: 30px;
-}
-
-
-.client-item-icon
-{
-    fill: var(--secondry-text-color);
-}
-
 /*Footer*/
 .footer
 {
