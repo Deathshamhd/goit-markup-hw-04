@@ -778,6 +778,15 @@ color: var(--secondry-text-color);
 }
 
 
+.container-footer
+{
+    display: flex;
+
+    align-items: baseline;
+
+}
+
+
 
 .footer-logo
 {
@@ -881,4 +890,26 @@ letter-spacing: 0.03em;
 
 color: #ffffff;
 opacity: 0.6;
+}
+.footer-social-list
+{
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.footer-social-title
+{
+    font-weight: 700px;
+    font-size: 14px;
+line-height: calc(16/14);
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+margin-bottom: 20px;
+
 }
