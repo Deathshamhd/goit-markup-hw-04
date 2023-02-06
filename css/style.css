@@ -891,6 +891,10 @@ letter-spacing: 0.03em;
 color: #ffffff;
 opacity: 0.6;
 }
+.footer-middle-side
+{
+    margin-left: 70px;
+}
 .footer-social-list
 {
     display: flex;
@@ -912,4 +916,24 @@ color: #FFFFFF;
 
 margin-bottom: 20px;
 
+}
+.footer-socials-link
+{
+  fill: white;
+
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+.footer-socials-link:not(:last-child)
+{
+    margin-left: 10px;
+}
+.footer-socials-link:hover,
+.footer-socials-link:focus
+{
+    fill: var(--accent-color);
+
+   
 }
