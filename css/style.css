@@ -551,6 +551,8 @@ color: var(--secondry-text-color);
 
 
     justify-content: center;
+
+    padding-bottom: 30px;
 }
 .team-socials-item:not(:last-child)
 
@@ -572,6 +574,19 @@ color: var(--secondry-text-color);
     align-items: center;
 
     justify-content: center;
+
+    color: var(--secondry-text-color);
+}
+
+.team-socials-link:hover,.team-socials-link:focus
+
+
+{
+
+    background-color: var(--accent-color);
+
+    color: white;
+
 }
 .team-socials-link-icon
 
